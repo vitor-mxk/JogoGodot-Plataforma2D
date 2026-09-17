@@ -1,0 +1,28 @@
+# Godot 4+ específicos (Cache e Metadados locais)
+.godot/
+.nomedia
+
+# Legado do Godot 3 (Útil caso use complementos antigos)
+.import/
+
+# Arquivos de configuração de exportação
+# export_presets.cfg pode conter dados confidenciais (chaves Android, senhas).
+# Se quiser salvar as configurações de exportação no Git, remova a linha abaixo.
+export_presets.cfg
+export.cfg
+export_credentials.cfg
+
+# Arquivos temporários e traduções binárias geradas automaticamente
+*.tmp
+*.translation
+
+# Específicos para a versão Mono / .NET (Se estiver usando C#)
+.mono/
+data_*/
+mono_crash.*.json
+*.csproj
+*.sln
+.vs/
+
+# Bloqueios específicos do Windows compilado por Godot 4.2+
+~*.dll
