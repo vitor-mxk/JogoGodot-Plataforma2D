@@ -122,6 +122,5 @@ autoplay = "idle"
 position = Vector2(72, 119)
 limit_left = 0
 limit_top = 0
-limit_right = 394
-limit_bottom = 200
+limit_bottom = 208
 position_smoothing_enabled = true
